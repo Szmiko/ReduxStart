@@ -14,12 +14,6 @@ function addComment(text) {
 	}
 };
 
-{
-	type: ADD_COMMENT,
-	text: '',
-	id: ''
-};
-
 function editComment(text, id) {
 	return {
 		type: EDIT_COMMENT,
@@ -28,22 +22,11 @@ function editComment(text, id) {
 	}
 };
 
-{
-	type: EDIT_COMMENT,
-	id: '',
-	text: ''
-};
-
 function removeComment(id) {
 	return {
 		type: REMOVE_COMMENT
 		id,
 	}
-};
-
-{
-	type: REMOVE_COMMENT,
-	id: ''
 };
 
 function thumbUp(id) {
@@ -54,22 +37,10 @@ function thumbUp(id) {
 	}
 };
 
-{
-	type: THUMB_UP,
-	id: '',
-	note: note + 1
-};
-
 function thumbDown(id) {
 	return {
 		type: THUMB_DOWN,
 		id,
 		note
 	}
-};
-
-{
-	type: THUMB_DOWN,
-	id: '',
-	note: note - 1
 };
