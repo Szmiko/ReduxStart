@@ -1,0 +1,23 @@
+{
+  "name": "ReduxStart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szmiko/ReduxStart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szmiko/ReduxStart/issues"
+  },
+  "homepage": "https://github.com/Szmiko/ReduxStart#readme",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}
